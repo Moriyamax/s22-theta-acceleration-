@@ -29,7 +29,19 @@ In particular, it enables:
 This makes it useful as a benchmarking tool across mathematical physics,
 integrable systems, and computational aspects of theta functions.
 
+## Reference Solver for Validation and Calibration
+This implementation can be used as a reference solver for validating
+and calibrating approximate methods for high-dimensional theta functions.
 
+Typical use cases include:
+- validating asymptotic or approximation formulas
+- calibrating numerical schemes
+- benchmarking independent implementations
+
+In particular, it enables reliable ground-truth evaluation
+in regimes (g > 20) where direct computation was previously impractical.
+
+--
 S(2,2)-Based Acceleration of High-Dimensional Riemann Theta Functions
 Benchmark Script for naive and s22 modes.
 This repository provides a benchmark implementation for computing high-dimensional Riemann theta functions using two modes:
