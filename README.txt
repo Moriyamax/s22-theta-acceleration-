@@ -29,7 +29,7 @@ In particular, it enables:
 This makes it useful as a benchmarking tool across mathematical physics,
 integrable systems, and computational aspects of theta functions.
 
-## Reference Solver for Validation and Calibration
+Reference Solver for Validation and Calibration
 This implementation can be used as a reference solver for validating
 and calibrating approximate methods for high-dimensional theta functions.
 
