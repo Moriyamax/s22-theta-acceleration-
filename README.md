@@ -1,4 +1,4 @@
-# RLD_theta_engine.jl
+# RLD_theta_engine.jl and RLD_theta_engine.py
 
 A high-performance Julia implementation for evaluating Riemann Theta Functions in ultra-high dimensions (genus g > 20,000) using the Recursive Log-Decomposition (RLD) algorithm.
 
@@ -32,12 +32,15 @@ Note: For g=20,000, the absolute value of the theta function is so large that it
 ### Prerequisites
 - Julia 1.9+
 - Standard libraries: LinearAlgebra, Random, Printf, JSON.
+  or
+- Python 3.13.12
+- numpy
 
 ### Running the Engine
 
 julia --threads auto RLD_theta_engine.jl
 
-Technical Details
+## Technical Details
 Recursive Formula
 The core logic utilizes the property that for block-diagonal Omega, the theta function factorizes:
 
@@ -45,14 +48,12 @@ log theta(z, Omega) = log theta(z_1, Omega_1) + log theta(z_2, Omega_2)
 
 This engine implements this via log_theta_recursive, which handles the cross-terms and recursive steps efficiently.
 
-Configuration
+## Configuration
 You can adjust the test parameters in the main() function:
 
 g_list: List of dimensions to test (e.g., [16, 20000]).
-
 N_cut: Summation limit for the base-case naive calculation.
-
 use_log_output: Set to true to display results in log-format, avoiding conversion errors for huge numbers.
 
-Repository
+## Repository
 Developed as part of the s22-theta-acceleration project.
