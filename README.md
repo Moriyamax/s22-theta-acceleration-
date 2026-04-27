@@ -32,7 +32,9 @@ Note: For g=20,000, the absolute value of the theta function is so large that it
 ### Prerequisites
 - Julia 1.9+
 - Standard libraries: LinearAlgebra, Random, Printf, JSON.
+  
   or
+
 - Python 3.13.12
 - numpy
 
