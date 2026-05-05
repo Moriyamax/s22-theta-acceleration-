@@ -3,7 +3,7 @@
 
 **Masaru Moriyama** (Independent Researcher) — May 2026
 
-Zenodo DOI: [[DOI](https://doi.org/10.5281/zenodo.20043951)]  
+Zenodo DOI: [[10.5281/zenodo.20043951](https://doi.org/10.5281/zenodo.20043951)]  
 GitHub: [[URL](https://github.com/Moriyamax/s22-theta-acceleration/]
 
 ---
